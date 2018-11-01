@@ -1,0 +1,13 @@
+{
+  "require": {
+    "php": ">=7.2",
+    "ext-json": "*",
+    "cboden/ratchet": "^0.4",
+    "clue/redis-react": "^2.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "app\\": "src"
+    }
+  }
+}
